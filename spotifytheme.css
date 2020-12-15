@@ -9,7 +9,7 @@ background-color: #cb1582;
 
 h1 {
   font-size: 96px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .sidenav {
@@ -25,7 +25,8 @@ h1 {
 }
 
 .sidenav a.menu {
-  padding: 5px 5px 5px 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
