@@ -9,13 +9,13 @@ background-color: #cb1582;
 
 h1 {
   font-family: Montserrat;
-  font-size: 96px;
+  font-size: 96px vw;
   font-weight: 700;
 }
 
 h2 {
   font-family: Montserrat;
-  font-size: 96px;
+  font-size: 64px vw;
   font-weight: 700;
 }
 
