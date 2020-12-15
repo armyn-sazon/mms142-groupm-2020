@@ -167,3 +167,8 @@ color: #1ed760;
 margin-top: 50px;
 margin-left: 450px
 }
+
+.active {
+background-color: #282828;
+border-radius: 20px
+}
