@@ -1,12 +1,10 @@
 html {
   @import url('https://fonts.googleapis.com/css?family=Montserrat')
-      height: 100%;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
 background-color: #cb1582;
-      height: 100%;
 }
 
 h1 {
