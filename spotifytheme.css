@@ -9,7 +9,7 @@ background-color: #cb1582;
 
 h1 {
   font-family: Montserrat;
-  font-size: 96px;
+  font-size: 96vw;
   font-weight: 700;
 }
 
@@ -38,7 +38,8 @@ h2 {
   text-decoration: none;
   font-size: 14px;
   color: #B3B3B3;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .sidenav a.menu:hover {
@@ -51,6 +52,12 @@ h2 {
   font-size: 14px;
   color: #818181;
   display: block;
+}
+
+.active {
+background-color: #282828;
+color: #ffffff
+border-radius: 4px
 }
 
 @media screen and (max-height: 450px) {
@@ -169,7 +176,4 @@ margin-top: 50px;
 margin-left: 450px
 }
 
-.active {
-background-color: #282828;
-border-radius: 20px
-}
+
