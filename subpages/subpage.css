@@ -136,8 +136,9 @@ p {
   grid-column-start: 2;
   justify-self: center;
   width: 800px;
-  margin-left: 100px;
+  margin-left: 200px;
   padding: 0px 15px;
+  font-weight: normal;
 }
 
 
