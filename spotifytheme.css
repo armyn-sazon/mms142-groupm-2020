@@ -48,6 +48,14 @@ h2 {
   color: #1DB954;
 }
 
+.sidenav a.active {
+background-color: #282828;
+color: #ffffff;
+border-left: 8px;
+border-right: 8px;
+border-radius: 4px
+}
+
 .sidenavp {
   margin-left: 24px;
   margin-right: 24px;
@@ -58,13 +66,7 @@ h2 {
   display: flex;
 }
 
-.active {
-background-color: #282828;
-color: #ffffff;
-border-left: 8px;
-border-right: 8px;
-border-radius: 4px
-}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
