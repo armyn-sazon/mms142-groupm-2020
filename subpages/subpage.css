@@ -109,6 +109,15 @@ p {
   height: 500px;
 }
 
+.header-image {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 112px;
+  padding: 72px 0px 72px;
+  overflow-x: hidden;
+  height: 300px;
+}
+
 .maintext {
   width: 500px;
   height: 400px;
