@@ -59,8 +59,7 @@ h2 {
   display: flex;
   align-items: center;
   background-color: #282828;
-  border-left: 8px;
-  border-right: 8px;
+  color: #ffffff;
   border-radius: 4px;
 }
 
