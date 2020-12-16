@@ -1,36 +1,50 @@
 html {
   @import url('https://fonts.googleapis.com/css?family=Montserrat')
 }
-
 body {
   font-family: "Montserrat", sans-serif;
-background-color: #ffffff;
+  margin: 0px;
+  background-color: #ffffff;
+  color: #121212;
+  overflow-x: hidden;
 }
 
+/*HEADINGS*/
 h1 {
   font-family: Montserrat;
-  font-size: 96vw;
+  font-size: 96px;
   font-weight: 700;
 }
-
 h2 {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
+  margin: 0px;
+}
+h3 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
 }
 
+p {
+  font-size: 18px;
+  margin-top: 16px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 210px auto;
+}
+
+/*NAVIGATION*/
 .sidenav {
+  grid-column-start: 1;
   height: 100%;
   width: 210px;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-  overflow-x: hidden;
   padding-top: 24px;
+  background-color: #000000;
 }
-
 .sidenav a.menu {
   padding-left: 16px;
   padding-right: 16px;
@@ -43,11 +57,23 @@ h2 {
   display: flex;
   align-items: center;
 }
-
 .sidenav a.menu:hover {
   color: #1DB954;
 }
-
+.sidenav a.active {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+  color: #ffffff;
+  border-radius: 4px;
+}
 .sidenavp {
   margin-left: 24px;
   margin-right: 24px;
@@ -58,49 +84,86 @@ h2 {
   display: flex;
 }
 
-.active {
-background-color: #282828;
-color: #ffffff;
-border-left: 8px;
-border-right: 8px;
-border-radius: 4px
+/*BODY*/
+.container-main{
+  grid-column-start: 2;
+  display: grid;
+  grid-template-rows: 60px auto auto auto;
+  }
+
+.searchbar{
+  grid-row-start: 1;
+  background-color: #090909;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
 }
+
+.container-title {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 112px;
+  padding: 72px 0px 72px;
+  overflow-x: hidden;
+  height: 500px;
+}
+
+.maintext {
+  width: 500px;
+  height: 400px;
+  font-size: 14px;
+  color: #000000;
+  grid-column-start: 1;
+  justify-self: end;
+}
+
+/*Body Text*/
+.grid-body {
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+}
+.bodytext {
+  grid-column-start: 2;
+  justify-self: center;
+  width: 800px;
+  padding: 0px 15px;
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a.menu {font-size: 18px;}
 }
 
-a.history:link, a.history:visited {
-  background-color: black;
-  width: 175px;
-  color: white;
-  padding: 14px 25px;
+a.button:link, a.button:visited {
+  border-radius: 500px;
+  padding: 17px 48px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
   text-align: center;
+  text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  border-radius: 25px
+  margin-top: 35px;
 }
 
-a.history:hover, a.lm:active {
-color: black;
+a.button:hover, a.button:active {
+  color: black;
   background-color: white;
 }
 
 a.about:link, a.about:visited {
   background-color: #a5ffef;
   width: 175px;
+  height: 50px;
   color: #cb1582;
-  padding: 14px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   border-radius: 25px
-}
-
-a.about:hover, a.about:active {
-color: #cb1582;
-  background-color: white;
 }
 
 a.future:link, a.future:visited {
@@ -112,11 +175,6 @@ a.future:link, a.future:visited {
   text-decoration: none;
   display: inline-block;
   border-radius: 25px
-}
-
-a.future:hover, a.future:active {
-color: #2d46b9;
-  background-color: white;
 }
 
 .header-image {
