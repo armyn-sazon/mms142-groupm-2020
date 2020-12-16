@@ -133,7 +133,6 @@ p {
 .grid-body {
   display: grid;
   grid-template-columns: 25% auto 25%;
-  grid-column-gap: 50px;
 }
 .bodytext {
   grid-column-start: 2;
