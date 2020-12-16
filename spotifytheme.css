@@ -110,7 +110,7 @@ p {
 }
 
 .maintext {
-  width: 400px;
+  width: 500px;
   height: 400px;
   font-size: 14px;
   color: #000000;
@@ -125,8 +125,9 @@ p {
 }
 .bodytext {
   grid-column-start: 2;
-  justify-content: center;
-  width: 1040px;
+  justify-self: center;
+  width: 800px;
+  padding: 0px 15px;
 }
 
 
