@@ -179,7 +179,7 @@ a.future:link, a.future:visited {
 
 /* Header */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../media/1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/1.png");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,6 +192,7 @@ a.future:link, a.future:visited {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   color: black;
 }
 
@@ -203,4 +204,3 @@ color: #000000;
 margin-top: 5px;
 margin-left: 50px
 }
-
