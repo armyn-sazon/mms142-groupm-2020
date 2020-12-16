@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+  background-color: #121212;
 }
 
 /*HEADINGS*/
@@ -132,16 +133,24 @@ color: #2d46b9;
 .grid-body{
   grid-column-start: 2;
   display: grid;
-  grid-template-rows: 500px 500px 500px;
+  grid-template-rows: 60px auto auto auto;
 }
+.searchbar{
+  background-color: #090909;
+  color: #ffffff;
+}
+
 .main {
-  margin: 0px;
-  top: 0;
-  left: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 112px;
+  padding: 72px 0px 72px;
   overflow-x: hidden;
+  height: 500px;
 }
 
 .main1text {
+  grid-column-start: 1;
   text-decoration: none;
   font-size: 14px;
   color: black;
