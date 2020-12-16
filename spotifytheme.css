@@ -5,7 +5,8 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
-  background-color: #121212;
+  background-color: #ffffff;
+  color: #121212;
 }
 
 /*HEADINGS*/
@@ -138,6 +139,9 @@ color: #2d46b9;
 .searchbar{
   background-color: #090909;
   color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
 }
 
 .main {
@@ -149,14 +153,14 @@ color: #2d46b9;
   height: 500px;
 }
 
+}
 .main1text {
+  font-size: 14px;
+  color: #000000;
   grid-column-start: 1;
   text-decoration: none;
-  font-size: 14px;
-  color: black;
-  display: block;
-margin-top: 20px;
-margin-left: 450px
+  display: flex;
+  align-items: flex-end;
 }
 
 .main2text {
@@ -174,4 +178,9 @@ color: #1ed760;
   display: block;
 margin-top: 50px;
 margin-left: 450px
+}
+
+
+.bodytext {
+  margin: 0px 340px 60px 340px;
 }
