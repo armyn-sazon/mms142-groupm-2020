@@ -11,18 +11,18 @@ body {
 
 /*HEADINGS*/
 h1 {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 96px;
   font-weight: 700;
 }
 h2 {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 64px;
   font-weight: 700;
   margin: 0px;
 }
 h3 {
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 700;
 }
