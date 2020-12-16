@@ -4,31 +4,34 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-background-color: #cb1582;
+  margin: 0px;
 }
 
+/*HEADINGS*/
 h1 {
   font-family: Montserrat;
   font-size: 96vw;
   font-weight: 700;
 }
-
 h2 {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
 }
 
+.grid-main {
+  display: grid;
+  grid-template-columns: 210px auto;
+}
+
+/*NAVIGATION*/
 .sidenav {
+  grid-column-start: 1;
   height: 100%;
   width: 210px;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-  overflow-x: hidden;
   padding-top: 24px;
+  background-color: #000000;
 }
 
 .sidenav a.menu {
@@ -72,8 +75,6 @@ h2 {
   color: #818181;
   display: flex;
 }
-
-
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -128,16 +129,16 @@ color: #2d46b9;
   background-color: white;
 }
 
-.main1 {
- height: 33%;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
+.grid-body{
+  grid-column-start: 2;
+  display: grid;
+  grid-template-rows: 500px 500px 500px;
+}
+.main {
+  margin: 0px;
   top: 0;
   left: 0;
-  background-color: #ff4632;
   overflow-x: hidden;
-  padding-top: 20px;
 }
 
 .main1text {
@@ -149,18 +150,6 @@ margin-top: 20px;
 margin-left: 450px
 }
 
-.main2 {
- height: 34%;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background-color: #cb1582;
-  overflow-x: hidden;
-  margin-top: 250px;
-}
-
 .main2text {
   text-decoration: none;
   font-size: 14px;
@@ -169,19 +158,6 @@ color: #a5ffef;
 margin-top: 50px;
 margin-left: 850px
 }
-
-.main3 {
- height: 33%;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  background-color: #2d46b9;
-  overflow-x: hidden;
-  margin-top: 525px;
-}
-
 .main3text {
   text-decoration: none;
   font-size: 14px;
