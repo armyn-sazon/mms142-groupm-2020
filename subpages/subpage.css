@@ -124,7 +124,7 @@ p {
   width: 500px;
   height: 400px;
   font-size: 14px;
-  font-color: #B3B3B3;
+  font-color: #B3B3B3 !important;
   grid-column-start: 1;
   justify-self: end;
 }
