@@ -132,7 +132,7 @@ p {
   width: 500px;
   height: 400px;
   font-size: 14px;
-  color: #B3B3B3;
+  color: #000000;
   grid-column-start: 1;
   justify-self: end;
 }
