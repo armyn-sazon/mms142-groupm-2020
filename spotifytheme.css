@@ -149,12 +149,6 @@ p {
   padding: 0px 15px;
 }
 
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a.menu {font-size: 18px;}
-}
-
 a.button:link, a.button:visited {
   border-radius: 500px;
   padding: 17px 48px;
