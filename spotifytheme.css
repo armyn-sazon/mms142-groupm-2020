@@ -134,6 +134,7 @@ p {
   color: #000000;
   grid-column-start: 1;
   justify-self: end;
+  overflow-x: hidden;
 }
 
 /*Body Text*/
