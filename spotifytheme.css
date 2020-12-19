@@ -69,7 +69,22 @@ p {
   background-color: #000000;
 }
 
-a.sitename {
+a.sitename:link, a.sitename:visited {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 18px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+
+a.sitename:hover, a.sitename:active {
   padding-left: 16px;
   padding-right: 16px;
   margin-left: 8px;
