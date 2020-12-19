@@ -139,7 +139,7 @@ p {
 .herotitle {
   font-size: 14px;
   color: #000000;
-  padding-left: 500px;
+  padding-left: 300px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -176,11 +176,10 @@ p {
   padding: 0px 15px 30px;
 }
 
+/*Buttons*/
 a.button:link, a.button:visited {
   border-radius: 500px;
   padding: 17px 48px;
-  background-color: #000000;
-  color: #ffffff;
   font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
@@ -189,6 +188,22 @@ a.button:link, a.button:visited {
   display: inline-block;
   margin-top: 35px;
 }
+
+a.button1:link, a.button1:visited {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a.button2:link, a.button2:visited {
+  background-color: #a5ffef;
+  color: #cb1582;
+}
+
+a.button3:link, a.button3:visited {
+  background-color: #1ed760;
+  color: #2d46b9;
+}
+
 
 a.button:hover, a.button:active {
   color: black;
