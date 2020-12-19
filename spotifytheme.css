@@ -218,3 +218,11 @@ a.button:hover, a.button:active {
   color: black;
   background-color: white;
 }
+
+a.reflink:hover, a.reflink:active {
+  color: #1DB954;
+}
+
+a.reflink:link, a.reflink:visited {
+  color: #b3b3b3;
+}
