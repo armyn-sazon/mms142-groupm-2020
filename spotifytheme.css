@@ -1,11 +1,8 @@
-/*SPOTIFY THEME MADE BY MMS 142 GROUP M 2020 */
-
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
   background-color: #ffffff;
   color: #121212;
-  overflow-x: hidden;
 }
 
 /*HEADINGS*/
@@ -13,6 +10,7 @@ h1 {
   font-family: Montserrat;
   font-size: 96px;
   font-weight: 700;
+  margin: 0px;
 }
 h2 {
   font-family: Montserrat;
@@ -20,6 +18,14 @@ h2 {
   font-weight: 700;
   margin: 0px;
 }
+
+h2.bold {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 900;
+  margin: 0px;
+}
+
 h3 {
   font-family: Montserrat;
   font-size: 32px;
@@ -62,6 +68,21 @@ p {
   padding-top: 24px;
   background-color: #000000;
 }
+
+a.sitename {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 18px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
 .sidenav a.menu {
   padding-left: 16px;
   padding-right: 16px;
@@ -134,7 +155,6 @@ p {
   grid-column-gap: 112px;
   padding: 72px 0px 72px;
   overflow-x: hidden;
-  overflow-y: hidden;
   height: 400px;
 }
 
@@ -142,14 +162,16 @@ p {
   padding: 72px 0px 72px;
   overflow-x: hidden;
   overflow-y: hidden;
+  height: auto;
+
 }
 
 .herotitle {
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   padding-left: 300px;
-  overflow-x: hidden;
   overflow-y: hidden;
+  height: auto;
 }
 
 .maintext {
@@ -158,9 +180,8 @@ p {
   font-size: 14px;
   color: #000000;
   grid-column-start: 1;
-  justify-self: end;
-  overflow-x: hidden;
   overflow-y: hidden;
+  justify-self: end;
 }
 
 .mainimage {
@@ -172,11 +193,11 @@ p {
   justify-self: flex-start;
 }
 
+
 /*Body Text*/
 .grid-body {
   display: grid;
   grid-template-columns: 25% auto 25%;
-  background-color: white;
 }
 .bodytext {
   grid-column-start: 2;
@@ -185,10 +206,11 @@ p {
   padding: 0px 15px 30px;
 }
 
-/*Buttons*/
 a.button:link, a.button:visited {
   border-radius: 500px;
   padding: 17px 48px;
+  background-color: #000000;
+  color: #ffffff;
   font-weight: 700;
   letter-spacing: 2px;
   text-align: center;
@@ -213,20 +235,7 @@ a.button3:link, a.button3:visited {
   color: #2d46b9;
 }
 
-
 a.button:hover, a.button:active {
   color: black;
   background-color: white;
 }
-
-
-/*References*/
-
-a.reflink:link, a.reflink:visited {
-  color: #b3b3b3;
-}
-
-a.reflink:hover, a.reflink:active {
-  color: #1DB954;
-}
-
