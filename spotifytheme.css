@@ -154,6 +154,15 @@ p {
   overflow-y: hidden;
 }
 
+.mainimage {
+  width: 500px;
+  height: 400px;
+  font-size: 14px;
+  grid-column-start: 2;
+  overflow-y: hidden;
+  justify-self: flex-start;
+}
+
 /*Body Text*/
 .grid-body {
   display: grid;
