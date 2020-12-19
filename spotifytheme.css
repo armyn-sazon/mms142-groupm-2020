@@ -124,6 +124,7 @@ p {
   grid-column-gap: 112px;
   padding: 72px 0px 72px;
   overflow-x: hidden;
+  overflow-y: hidden;
   height: 260px;
 }
 
@@ -131,6 +132,7 @@ p {
   padding: 72px 0px 72px;
   overflow-x: hidden;
   height: 260px;
+  overflow-y: hidden;
 }
 
 .herotitle {
@@ -138,8 +140,9 @@ p {
   height: 400px;
   font-size: 14px;
   color: #000000;
-  justify-self: end;
+  padding-left: 500px;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .maintext {
@@ -150,6 +153,7 @@ p {
   grid-column-start: 1;
   justify-self: end;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /*Body Text*/
