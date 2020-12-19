@@ -127,6 +127,21 @@ p {
   height: 260px;
 }
 
+.container-hero {
+  padding: 72px 0px 72px;
+  overflow-x: hidden;
+  height: 260px;
+}
+
+.herotitle {
+  width: 500px;
+  height: 400px;
+  font-size: 14px;
+  color: #000000;
+  justify-self: end;
+  overflow-x: hidden;
+}
+
 .maintext {
   width: 500px;
   height: 400px;
