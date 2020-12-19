@@ -222,10 +222,11 @@ a.button:hover, a.button:active {
 
 /*References*/
 
+a.reflink:link, a.reflink:visited {
+  color: #b3b3b3;
+}
+
 a.reflink:hover, a.reflink:active {
   color: #1DB954;
 }
 
-a.reflink:visited {
-  color: #b3b3b3;
-}
